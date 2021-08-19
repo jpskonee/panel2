@@ -132,7 +132,12 @@ const useStyles = makeStyles((theme) => ({
 function Panel() {
   const classes = useStyles();
   return (
-    <a className={classes.link} href="https://google.com" target="_blank" rel="noreferrer>
+    <a
+      className={classes.link}
+      href="https://google.com"
+      target="_blank"
+      rel="noreferrer"
+    >
       <div className={classes.root}>
         <div className={classes.logoDiv}>
           <img src={juvaLogo} alt="Bento Logo" className={classes.logo} />
